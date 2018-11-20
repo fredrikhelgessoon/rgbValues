@@ -1,7 +1,7 @@
 # rgbValues
 This script is used to extract RBG-values with the functionality to translate them into characters.
 
-´´´bash
+```bash
 usage: rgbValues.py [-h] [--show] [--rot ROT] [--translate]
                     file {red,green,blue,all}
 
@@ -15,7 +15,7 @@ optional arguments:
   --show, -s            List RGB-values for all pixels
   --rot ROT, -r ROT     Declare a rot-conversion value
   --translate, -t       Covert values to characters
-´´´
+```
 # Examples:
 ## Show the blue RGB-attribute value of all pixels
 python rgbValues.py CheckOutThisFilter.png b -s	
