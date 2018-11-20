@@ -15,15 +15,15 @@ optional arguments:
   --rot ROT, -r ROT     Declare a rot-conversion value
   --translate, -t       Covert values to characters
 
-#Examples:
+# Examples:
 ##Show the blue RGB-attribute value of all pixels
 python rgbValues.py CheckOutThisFilter.png b -s	
 
-##Show all RGB-attribute values of all pixels
+## Show all RGB-attribute values of all pixels
 python rgbValues.py CheckOutThisFilter.png all -s
 
-##Translate the blue RGB-attribute value of all pixels into characters
+## Translate the blue RGB-attribute value of all pixels into characters
 python rgbValues.py CheckOutThisFilter.png b -t
 
-##Translate the blue RGB-attribute value of all pixels into characters with a ROT-value of 13
+## Translate the blue RGB-attribute value of all pixels into characters with a ROT-value of 13
 python rgbValues.py CheckOutThisFilter.png b -t -r 13
