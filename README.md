@@ -17,14 +17,19 @@ optional arguments:
   --translate, -t       Covert values to characters
 ```
 # Examples:
-## Show the blue RGB-attribute value of all pixels
+* Show the blue RGB-attribute value of all pixels
+```bash
 python rgbValues.py CheckOutThisFilter.png b -s	
-
-## Show all RGB-attribute values of all pixels
+```
+* Show all RGB-attribute values of all pixels
+```bash
 python rgbValues.py CheckOutThisFilter.png all -s
-
-## Translate the blue RGB-attribute value of all pixels into characters
+```
+* Translate the blue RGB-attribute value of all pixels into characters
+```bash
 python rgbValues.py CheckOutThisFilter.png b -t
-
-## Translate the blue RGB-attribute value of all pixels into characters with a ROT-value of 13
+```
+* Translate the blue RGB-attribute value of all pixels into characters with a ROT-value of 13
+```bash
 python rgbValues.py CheckOutThisFilter.png b -t -r 13
+```
