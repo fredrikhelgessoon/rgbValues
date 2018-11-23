@@ -1,5 +1,5 @@
 # rgbValues
-This script is used to extract RBG-values with the functionality to translate them into characters.
+This script is used to extract RBG-values of every pixel in an image with the functionality to translate them into characters. Useful tool in for example CTF challenges.
 
 ```bash
 usage: rgbValues.py [-h] [--show] [--rot ROT] [--translate]
